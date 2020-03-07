@@ -1,0 +1,122 @@
+.font-size-default{
+	font-size:var(--fs-default)
+}
+.font-title,h1,h2,h3,h4,h5,h6{
+	font-family:var(--title-font)
+}
+
+h6,.h6{
+	font-size: calc(var(--fs-default) + 0.25rem)
+}
+h5,.h5{
+	font-size: calc(var(--fs-default) + 0.50rem)
+}
+h4,.h4{
+	font-size: calc(var(--fs-default) + 0.75rem)
+}
+h3,.h3{
+	font-size: calc(var(--fs-default) + 1.00rem)
+}
+h2,.h2{
+	font-size: calc(var(--fs-default) + 1.25rem)
+}
+h1,.h1{
+	font-size: calc(var(--fs-default) + 1.50rem)
+}
+.font-big-1{font-size: calc(var(--fs-default) + 2.50rem)}
+.font-big-2{font-size: calc(var(--fs-default) + 3.50rem)}
+.font-big-3{font-size: calc(var(--fs-default) + 4.50rem)}
+.font-big-4{font-size: calc(var(--fs-default) + 5.50rem)}
+.font-big-5{font-size: calc(var(--fs-default) + 6.50rem)}
+
+.font-small-90{font-size:90%}
+.font-small-80{font-size:80%}
+.font-small-70{font-size:70%}
+.font-small-60{font-size:60%}
+.font-small-50{font-size:50%}
+.font-small-40{font-size:40%}
+
+.weight-100{font-weight:100}
+.weight-200{font-weight:200}
+.weight-300{font-weight:300}
+.weight-400{font-weight:400}
+.weight-500{font-weight:500}
+.weight-600{font-weight:600}
+.weight-700{font-weight:700}
+.weight-800{font-weight:800}
+.weight-900{font-weight:900}
+
+.line-100{line-height:1.0}
+.line-120{line-height:1.2}
+.line-140{line-height:1.4}
+.line-150{line-height:1.5}
+.line-180{line-height:1.8}
+.line-200{line-height:2.0}
+
+.text-justify{text-align:justify!important}
+.text-wrap{white-space:normal!important}
+.text-nowrap{white-space:nowrap!important}
+.text-truncate{
+    overflow:hidden;
+    white-space:nowrap;
+    text-overflow:ellipsis;
+}
+
+.text-left{text-align: left !important}
+.text-right{text-align: right !important}
+.text-center{text-align: center !important}
+@media (min-width: 576px){
+    .text-sm-left{text-align: left !important}
+    .text-sm-right{text-align: right !important}
+    .text-sm-center{text-align: center !important}
+}
+@media (min-width: 768px){
+    .text-md-left{text-align: left !important}
+    .text-md-right{text-align: right !important}
+    .text-md-center{text-align: center !important}
+}
+@media (min-width: 992px){
+    .text-lg-left{text-align: left !important}
+    .text-lg-right{text-align: right !important}
+    .text-lg-center{text-align: center !important}
+}
+@media (min-width: 1200px){
+    .text-xl-left{text-align: left !important}
+    .text-xl-right{text-align: right !important}
+    .text-xl-center{text-align: center !important}
+}
+@media (min-width: 1920px){
+    .text-xxl-left{text-align: left !important}
+    .text-xxl-right{text-align: right !important}
+    .text-xxl-center{text-align: center !important}
+}
+
+.text-to-low{text-transform:lowercase!important}
+.text-to-up{text-transform:uppercase!important}
+.text-to-capitalize{text-transform:capitalize!important}
+
+.text-decoration-none{text-decoration:none!important}
+.text-break{
+    word-break:break-word!important; // IE & Edge 18 Reset
+    overflow-wrap:break-word!important;
+}
+
+.text-hide {
+    font: 0/0 a;
+    color: transparent;
+    text-shadow: none;
+    background-color: transparent;
+    border: 0;
+}
+  
+.text-decoration-none{
+    text-decoration: none !important;
+}
+
+.text-black { color: rgb(0,0,0) !important}
+.text-black-50 { color: rgba(0,0,0,.5) !important}
+.text-white { color: rgb(255,255,255) !important}
+.text-white-50 { color: rgba(255,255,255,.5) !important}
+
+// Reset
+.text-reset{color:inherit!important}
